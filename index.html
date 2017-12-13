@@ -70,7 +70,7 @@
         </div>
         <div class="container">
             <nav class="order-nav"><img class="gradient-order" src="images/GradientOverlay Copy.png" alt="overlay">
-                <div class="title">Item(s)</div>
+                <div class="title-item">Item(s)</div>
                 <div class="column-item-1">
                     <ul class="product-image">
                         <li>IMAGE 1</li>
@@ -109,28 +109,36 @@
         </div>
 
        <hr>
-       <div>
-           <ul>
-               <td>Subtotal</td>
-               <td>billing.subtotal</td>
-           </ul>
-           <ul>
-                <td>Shipping</td>
-                <td>billing.shipping</td>
-            </ul>
-            <ul>
-                <td>Tax</td>
-                <td>billing.taxes</td>
-            </ul>
-            <ul>
-                <td>Discounts</td>
-                <td>billing.discounts</td>
-            </ul>
-            <ul>
-                <img class="gradient-order" src="images/GradientOverlay Copy.png" alt="overlay">
-                <th>ORDER TOTAL</th>
-                <th>billing.total</th>
-            </ul>
+       <div class="container-price">
+                <div id="price-labels" class="column-price-1">
+                    <ul>
+                        <li>Subtotal</li>
+                        <li>Shipping</li>
+                        <li>Tax</li>
+                        <li>Discounts</li>
+                    </ul>
+                </div>
+                <div id="billing" class="column-price-2">
+                    <ul>
+                        <li>billing.subtotal</li>
+                        <li>billing.shipping</li>
+                        <li>billing.tax</li>
+                        <li>billing.discounts</li>                            
+                    </ul>
+                </div>
+            </nav>
+        </div>
+       <div class="container-price-final">
+           <div class="column-price-1">
+                <ul>
+                    <li>ORDER TOTAL</li>
+                </ul>
+            </div>
+            <div id="price-final" class="column-price-2">
+                <ul>
+                    <li>billing.total</li>
+                </ul>
+            </div>
        </div>
    </div>
 
@@ -138,7 +146,35 @@
        <div class="container"><img class="footer-gradient-order" src="images/GradientOverlay Copy.png" alt="overlay">
             <a href="www.foraycollective.com">www.foraycollective.com</a>
             <hr>
-            <div></div>
+            <div class="icons">
+                <ul class="icons">
+                    <li>
+                        <a href="https://www.instagram.com/foraycollective/">
+                            <img class="instagram-logo" src="images/icon/Instagram-default.png" alt="instagram-logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCrujmUKDvp3z03REc3Slq3Q">
+                            <img class="youtube-logo" src="images/icons/youTube__share-default.png" alt="youtube-logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/foraycollective">
+                            <img class="facebook-logo" src="images/icons/faceBook_share-default.png" alt="facebook-logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com/foraycollective">
+                            <img class="twitter-logo" src="images/icons/twitter_share-default.png" alt="twitter-logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com/foraycollective/">
+                            <img class="pinterest-logo" src="images/icons/pinterest_share-default.png" alt="pinterest-logo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <address>Please email us if there's anything you think we should know <a class="customerlove" href="mailto:customerlove@foraycollective.com">customerlove@foraycollective.com</a></address>
             <div class="footer-info">
                 <p class="info-left">&copy; 2017 Foray Collective. All rights reserved<span class="info-right">123 4th St. undefined, Santa Monica, CA 90404</span></p>
