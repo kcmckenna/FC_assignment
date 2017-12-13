@@ -1,3 +1,37 @@
-html body {
-    background-color: goldenrod;
+html {
+    box-sizing: border-box;
+  }
+  /* *, *:before, *:after {
+    box-sizing: inherit;
+} */
+
+body {
+    width: 1600px;
 }
+
+header {
+    width: 1200px;
+    height: 135px;
+    border-top: 10px solid black;
+}
+
+.foray-logo {
+    float: left;
+    padding-left: 31px;
+    padding-top: 26px;
+    padding-bottom: 27px;
+}
+
+.gradient-header {
+    width: 1200px;
+    height: 54px;
+}
+
+.order {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
