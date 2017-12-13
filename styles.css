@@ -30,11 +30,37 @@ header {
 
 .order {
     color: #696969;
+    border: 1px solid black;
+    width: 984px;
+}
+
+.gradient-order {
+    width: 984px;
+    height: 52px;
+}
+
+th {
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    /* background: url("images/GradientOverlay Copy.png"); */
+}
+
+#header-row-1 {
+    background: url("images/GradientOverlay Copy.png");
 }
 
 h1 {
     padding-left: 121px;
-    font-size: 52px;
+    font-size: 50px;
+}
+
+h3 {
+    padding-left: 121px;
+    font-size: 35px;
+}
+
+hr {
+    width: 963px;
 }
 
 a {
