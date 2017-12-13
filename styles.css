@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-family: Nunito;
+    font-family: 'Montserrat', sans-serif;
   }
   /* *, *:before, *:after {
     box-sizing: inherit;
@@ -29,14 +29,19 @@ header {
 }
 
 .order {
-    color: #696969;
-    border: 1px solid black;
+    margin-left: 121px;
+    font-style: #696969;
     width: 984px;
 }
 
 .gradient-order {
     width: 984px;
     height: 52px;
+}
+
+.footer-gradient-order {
+    height: 423px;
+    width: 1200px;
 }
 
 th {
@@ -50,17 +55,18 @@ th {
 }
 
 h1 {
-    padding-left: 121px;
-    font-size: 50px;
+    font-size: 38pt;
+    font-weight: bold;
 }
 
 h3 {
-    padding-left: 121px;
-    font-size: 35px;
+    font-size: 20pt;
+    font-weight: lighter;
 }
 
 hr {
     width: 963px;
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
 a {
