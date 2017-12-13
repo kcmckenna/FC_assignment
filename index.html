@@ -15,80 +15,123 @@
         </a>
            <img class="gradient-header" src="images/GradientOverlay.png" alt="gradient overlay">
    </header>
-
+        <p id="thanks">Thank you for your order.</p>
+        <p id="confirmation">Here's your order confirmation.</p>
    <div class="order">
-       <div class="container">
-           <h1>Thank you for your order.</h1>
-           <h3>Here's your order confirmation.</h3>
-       </div>
-       <table>
-            <tr id="header-row-1"><img class="gradient-order" src="images/GradientOverlay Copy.png" alt="overlay">
-                <hr>
-                <th><h2>Your Order</h2></th>
-                <th><h2>Order Date</h2></th> 
-                <th><h2>Status</h2></th>
-            </tr>
-            <tr>
-                <td>878973289179372</td>
-                <td>9/16/2017</td>
-                <td>Not shipped</td>
-            </tr>
-       </table>
-       <table>
-            <tr id="header-row-2"><img class="gradient-order" src="images/GradientOverlay Copy.png" alt="overlay">
-                <hr>
-                <th><h2>Shipping Address</h2></th>
-                <th><h2>Billing Address</h2></th> 
-                <th><h2>Payment Type</h2></th>
-            </tr>
-            <tr>
-                <td>Address<br>City<br>Region<br>CA 95014.</td>
-                <td>Address<br>City<br>Region<br>CA 95014.</td>
-                <td>Payment method</td>
-            </tr>
-       </table>
-       <table>
-           <tr id="header-row-3"><img class="gradient-order" src="images/GradientOverlay Copy.png" alt="overlay">
-            <hr>
-               <th><h2>Item(s)</h2></th>
-           </tr>
-           <tr>
-               <td>IMAGE</td>
-               <td>2</td>
-               <td>VOLUMINOUS DOUBLE-BREASTED JACKET<br>Black</td>
-               <td>$US 160.00</td>
-           </tr>
-           <tr>
-                <td>IMAGE</td>
-                <td>1</td>
-                <td>THE JETSETTER BOTTOM<br>Nude</td>
-                <td>$US 31.00</td>
-            </tr>
-       </table>
+        <div class="container">
+            <nav class="order-nav"><img class="gradient-order" src="images/GradientOverlay Copy.png" alt="overlay">
+                <div class="column">
+                    <div class="title">Your Order</div>
+                        <ul>
+                            <li><a href="">878973289179372</a></li>
+                        </ul>
+                </div>
+                <div class="column">
+                    <div class="title">Order Date</div>
+                        <ul>
+                            <li>9/16/2017</li>
+                        </ul>
+                </div>
+                <div class="column">
+                    <div class="title">Status</div>
+                        <ul>
+                            <li>Not Shipped</li>
+                        </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <nav class="order-nav"><img class="gradient-order" src="images/GradientOverlay Copy.png" alt="overlay">
+                <div class="column">
+                    <div class="title">Shipping Address</div>
+                        <ul>
+                            <li>Address</li>
+                            <li>City</li>
+                            <li>Region</li>
+                            <li>CA 95014.</li>
+                        </ul>
+                </div>
+                <div class="column">
+                    <div class="title">Billing Address</div>
+                        <ul>
+                            <li>Address</li>
+                            <li>City</li>
+                            <li>Region</li>
+                            <li>CA 95014.</li>
+                        </ul>
+                </div>
+                <div class="column">
+                    <div class="title">Payment Type</div>
+                        <ul>
+                            <li>Payment method</li>
+                        </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <nav class="order-nav"><img class="gradient-order" src="images/GradientOverlay Copy.png" alt="overlay">
+                <div class="title">Item(s)</div>
+                <div class="column-item-1">
+                    <ul class="product-image">
+                        <li>IMAGE 1</li>
+                    </ul> 
+                    <ul>
+                        <li>IMAGE 2</li>
+                    </ul>
+                </div>
+                <div class="column-item-2">
+                        <ul class="amount">
+                            <li>2</li>
+                        </ul>
+                        <ul>
+                            <li>1</li>
+                        </ul>
+                </div>
+                <div class="column-item-3">
+                        <ul class="description">
+                            <li>VOLUMINOUS DOUBLE-BREASTED JACKET</li>
+                            <li>Black</li>
+                        </ul>
+                        <ul class="description">
+                            <li>THE JETSETTER BOTTOM</li>
+                            <li>Nude</li>
+                        </ul>
+                </div>
+                <div class="column-item-4">
+                    <ul class="price">
+                        <li>$US 160.00</li>
+                    </ul>
+                    <ul class="price">
+                        <li>$US 31.00</li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
        <hr>
-       <table>
-           <tr>
+       <div>
+           <ul>
                <td>Subtotal</td>
                <td>billing.subtotal</td>
-           </tr>
-           <tr>
+           </ul>
+           <ul>
                 <td>Shipping</td>
                 <td>billing.shipping</td>
-            </tr>
-            <tr>
+            </ul>
+            <ul>
                 <td>Tax</td>
                 <td>billing.taxes</td>
-            </tr>
-            <tr>
+            </ul>
+            <ul>
                 <td>Discounts</td>
                 <td>billing.discounts</td>
-            </tr>
-            <tr>
+            </ul>
+            <ul>
                 <img class="gradient-order" src="images/GradientOverlay Copy.png" alt="overlay">
                 <th>ORDER TOTAL</th>
                 <th>billing.total</th>
-            </tr>
-       </table>
+            </ul>
+       </div>
    </div>
 
    <footer class="footer">
@@ -98,8 +141,8 @@
             <div></div>
             <address>Please email us if there's anything you think we should know <a class="customerlove" href="mailto:customerlove@foraycollective.com">customerlove@foraycollective.com</a></address>
             <div class="footer-info">
-                <h4>&copy; 2017 Foray Collective. All rights reserved</h4>
-                <h4>123 4th St. undefined, Santa Monica, CA 90404</h4>
+                <p class="info-left">&copy; 2017 Foray Collective. All rights reserved<span class="info-right">123 4th St. undefined, Santa Monica, CA 90404</span></p>
+                
             </div>
         </div>
    </footer>
