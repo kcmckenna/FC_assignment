@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-family: Nunito;
   }
   /* *, *:before, *:after {
     box-sizing: inherit;
@@ -28,7 +29,12 @@ header {
 }
 
 .order {
-    color: blue;
+    color: #696969;
+}
+
+h1 {
+    padding-left: 121px;
+    font-size: 52px;
 }
 
 a {
