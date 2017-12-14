@@ -1,20 +1,36 @@
+/* PAGE LAYOUT */
+
 html {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
   }
-  *, *:before, *:after {
+  /* *, *:before, *:after {
     box-sizing: inherit;
-}
-
+} */
 body {
     width: 1600px;
 }
-
 header {
     width: 1200px;
     height: 135px;
     border-top: 10px solid black;
 }
+hr {
+    width: 963px;
+    color: rgba(129, 129, 129, 0.5);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    padding: 0px;
+    list-style-type: none;  
+}
+li {
+    padding-left: 10px;
+}
+
+/* HEADER */
 
 .foray-logo {
     float: left;
@@ -22,59 +38,49 @@ header {
     padding-top: 26px;
     padding-bottom: 27px;
 }
-
 .gradient-header {
     width: 1200px;
     height: 54px;
 }
 
+/* ORDER FORM */
+
 .order {
     margin-left: 121px;
+    padding: 36px 0;
     font-style: #696969;
     width: 984px;
+    height: 982px;
 }
-
-.title {
+div .title {
     margin: auto;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22pt;
+    font-size: 20px !important;
+    color: #696969;
+    padding-left: 10px;
     text-orientation: center;
+    display: inline-flex;
+    vertical-align: middle;
     height: 52px;
-    width: 100%;
+    width: 96.7%;
     border-bottom: 2px solid rgba(94, 93, 93, 0.5);
 }
-
 .title-item {
-    margin: auto;
+    margin-top: -40px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22pt;
+    font-size: 20px !important;
+    padding-left: 10px;
     text-orientation: center;
     height: 52px;
-    width: 100%;
-    background: url("images/GradientOverlay Copy.png");
+    width: 968px;
     border-bottom: 2px solid rgba(94, 93, 93, 0.5);
 }
-
 .gradient-order {
     width: 984px;
     height: 52px;
 }
-
-.footer {
-    height: 423px;
-    width: 1200px;
-}
-.icons {
-    width:425px;
-    height: 150px;
-}
-
-#header-row-1 {
-    background: url("images/GradientOverlay Copy.png");
-}
-
 #thanks {
     font-size: 38pt;
     font-weight: bold;
@@ -82,31 +88,12 @@ header {
     font-style: #696969;
     width: 984px;
 }
-
 #confirmation {
     font-size: 20pt;
     font-weight: lighter;
     margin-left: 121px;
     font-style: #696969;
     width: 984px;
-}
-
-hr {
-    width: 963px;
-    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.5);
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    padding: 0px;
-    list-style-type: none;  
-}
-
-.order {
-    padding: 36px 0;
 }
 
 .order-nav {
@@ -135,20 +122,31 @@ ul {
 .container-price {
     float: right;
     width: 341px;
-    height: 100%;
 }
-.column-price {
+.column-price-1 {
+    float: left;
+    width: 170.5px;
+    height: 225px;
+}
+.column-price-2 {
     float: right;
     width: 170.5px;
+    height: 225px;
+}
+.gradient-price {
+    width: 341px;
+    height: 52px;
 }
 .container-price-final {
+    clear: both;
     float: right;
     width: 341px;
-    height: 100%;
+    height: 52px;
 }
 .order-nav .title {
+    margin-top: -50px;
     font-size: 12px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     font-weight: bold;
 }
 .order-nav ul {
@@ -160,14 +158,74 @@ ul {
 .order-nav a {
     color: #8e959c;
 }
+.order-num {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #389BD6 !important
+}
 
+/* FOOTER */
+
+.footer {
+    height: 423px;
+    width: 1200px;
+}
+.footer-container {
+    background: url("images/GradientOverlay Copy.png");
+    height: 423px;
+    width: 1200px;
+}
+#foray-web {
+    padding-left: 121px;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    color: black;
+}
+.icons {
+    display: inline-flex;
+    padding-top: 25px;
+    padding-left: 121px;
+    padding-bottom: 20px;
+    width:450px;
+    height: 80px;
+}
+.instagram-logo {
+    padding-right: 30px;    
+}
+.youtube-logo {
+    padding-right: 30px;    
+}
+.facebook-logo {
+    padding-right: 30px;    
+}
+.twitter-logo {
+    padding-right: 30px;    
+}
+.pinterest-logo {
+    padding-right: 30px;    
+}
+address {
+    padding-left: 121px;
+    margin-bottom: 150px;
+}
 .footer-info {
     background: black;
-    color: white;
+    color: rgb(165, 165, 165);
+    padding-left: 25px;
+    padding-right: 25px;
+    display: table-cell;
+    vertical-align: middle;
     height: 49px;
     width: 1200px;
 }
 .info-right {
     float: right;
 }
-
+.customerlove {
+    padding-left: 10px;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: bold !important;
+    color: #389BD6 !important;
+}
