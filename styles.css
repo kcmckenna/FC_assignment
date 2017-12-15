@@ -125,13 +125,13 @@ div .title {
 }
 .column-price-1 {
     float: left;
-    width: 170.5px;
-    height: 225px;
+    width: 130.5px;
+    height: 145px;
 }
 .column-price-2 {
-    float: right;
+    float: left;
     width: 170.5px;
-    height: 225px;
+    height: 145px;
 }
 .gradient-price {
     width: 341px;
@@ -142,6 +142,7 @@ div .title {
     float: right;
     width: 341px;
     height: 52px;
+    font-weight: bold;
 }
 .order-nav .title {
     margin-top: -50px;
@@ -154,6 +155,7 @@ div .title {
 }
 .order-nav ul li {
     margin-bottom: 7px;
+    font-weight: bold;
 }
 .order-nav a {
     color: #8e959c;
@@ -163,7 +165,37 @@ div .title {
     font-weight: bold;
     color: #389BD6 !important
 }
-
+.total {
+    margin-top: -56px;
+}
+.item-1 {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.item-2 {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.item-desc-2 {
+    margin-top: 121px;
+}
+.item-amount-2 {
+    margin-top: 145px;
+}
+.item-price-2 {
+    margin-top: 145px;
+    font-weight: bold !important;
+}
+.item-price-1 {
+    font-weight: bold !important;
+}
+.price {
+    font-weight: bold !important;
+}
+.labels {
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
 /* FOOTER */
 
 .footer {
@@ -208,6 +240,7 @@ div .title {
 address {
     padding-left: 121px;
     margin-bottom: 150px;
+    font-style: normal;
 }
 .footer-info {
     background: black;
