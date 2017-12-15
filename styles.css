@@ -75,6 +75,7 @@ div .title {
     text-orientation: center;
     height: 52px;
     width: 968px;
+    color: #696969;    
     border-bottom: 2px solid rgba(94, 93, 93, 0.5);
 }
 .gradient-order {
@@ -85,10 +86,13 @@ div .title {
     margin-left: 121px;    
     font-size: 34pt;
     font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
-    font-style: #696969;    
+    font-family: Helvetica, sans-serif;
+    font-style: #696969;
+    color: #696969;
 }
 #confirmation {
+    position: relative;
+    bottom: 40px;
     margin-left: 121px;    
     font-size: 16pt;
     font-weight: lighter;
@@ -114,7 +118,7 @@ div .title {
 }
 .order-nav .column-item-3 {
     float: left;
-    width: 600px;
+    width: 550px;
 }
 .order-nav .column-item-4 {
     float: left;
@@ -131,12 +135,24 @@ div .title {
 }
 .column-price-2 {
     float: left;
-    width: 170.5px;
+    width: 150.5px;
     height: 145px;
 }
 .gradient-price {
-    width: 341px;
+    position: relative;
+    right: 30px;
+    width: 371px;
     height: 52px;
+}
+.total {
+    margin-top: -56px;
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
+}
+.bill-total {
+    margin-top: -56px;
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
 }
 .container-price-final {
     clear: both;
@@ -165,15 +181,6 @@ div .title {
     text-decoration: underline;
     font-weight: bold;
     color: #389BD6 !important
-}
-.total {
-    margin-top: -56px;
-    font-family: Helvetica, sans-serif;
-    font-size: 12pt;
-}
-.bill-total {
-    font-family: Helvetica, sans-serif;
-    font-size: 12pt;
 }
 .item-1 {
     padding-left: 10px;
@@ -228,15 +235,21 @@ div .title {
     width: 1200px;
 }
 #foray-web {
+    position: relative;
+    top: 40px;
     padding-left: 121px;
-    padding-top: 40px;
+    margin-top: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 26px;
     color: black;
 }
+.footer-break {
+    position: relative;
+    top: 40px;
+}
 .icons {
     display: inline-flex;
-    padding-top: 25px;
+    padding-top: 55px;
     padding-left: 121px;
     padding-bottom: 20px;
     width:450px;
@@ -261,6 +274,7 @@ address {
     padding-left: 121px;
     margin-bottom: 150px;
     font-style: normal;
+    color: #696969;    
 }
 .footer-info {
     background: black;
