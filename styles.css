@@ -64,7 +64,6 @@ div .title {
     vertical-align: middle;
     height: 52px;
     width: 96.7%;
-    border-bottom: 2px solid rgba(94, 93, 93, 0.5);
 }
 .title-item {
     margin-top: -40px;
@@ -76,15 +75,15 @@ div .title {
     height: 52px;
     width: 968px;
     color: #696969;    
-    border-bottom: 2px solid rgba(94, 93, 93, 0.5);
 }
 .gradient-order {
     width: 984px;
     height: 52px;
+    border-bottom: 2px solid rgba(94, 93, 93, 0.5);
 }
 #thanks {
     margin-left: 121px;    
-    font-size: 34pt;
+    font-size: 26pt;
     font-weight: bold;
     font-family: Helvetica, sans-serif;
     font-style: #696969;
@@ -92,7 +91,7 @@ div .title {
 }
 #confirmation {
     position: relative;
-    bottom: 40px;
+    bottom: 30px;
     margin-left: 121px;    
     font-size: 16pt;
     font-weight: lighter;
@@ -178,11 +177,27 @@ div .title {
     color: #8e959c;
 }
 .order-num {
+    position: relative;
+    top: -25px;
     text-decoration: underline;
     font-weight: bold;
     color: #389BD6 !important
 }
+.date {
+    position: relative;
+    top: -25px;
+}
+.status {
+    position: relative;
+    top: -25px;
+}
+.place {
+    position: relative;
+    top: -25px;
+}
 .item-1 {
+    position: relative;
+    top: -5px;
     padding-left: 10px;
     padding-bottom: 20px;
 }
@@ -196,11 +211,13 @@ div .title {
 .item-amount-1 {
     font-weight: bold !important;
     font-family: Helvetica, sans-serif;
+    font-size: 16px;
 }
 .item-amount-2 {
     margin-top: 145px;
     font-weight: bold !important;
     font-family: Helvetica, sans-serif;
+    font-size: 16px;
 }
 .item-price-2 {
     margin-top: 145px;
@@ -241,7 +258,7 @@ div .title {
     margin-top: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 26px;
-    color: black;
+    color: #696969;  
 }
 .footer-break {
     position: relative;
