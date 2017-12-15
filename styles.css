@@ -82,17 +82,18 @@ div .title {
     height: 52px;
 }
 #thanks {
-    font-size: 38pt;
+    margin-left: 121px;    
+    font-size: 34pt;
     font-weight: bold;
-    margin-left: 121px;
-    font-style: #696969;
-    width: 984px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: #696969;    
 }
 #confirmation {
-    font-size: 20pt;
+    margin-left: 121px;    
+    font-size: 16pt;
     font-weight: lighter;
-    margin-left: 121px;
     font-style: #696969;
+    font-family: 'Montserrat', sans-serif;    
     width: 984px;
 }
 
@@ -167,6 +168,12 @@ div .title {
 }
 .total {
     margin-top: -56px;
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
+}
+.bill-total {
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
 }
 .item-1 {
     padding-left: 10px;
@@ -179,22 +186,35 @@ div .title {
 .item-desc-2 {
     margin-top: 121px;
 }
+.item-amount-1 {
+    font-weight: bold !important;
+    font-family: Helvetica, sans-serif;
+}
 .item-amount-2 {
     margin-top: 145px;
+    font-weight: bold !important;
+    font-family: Helvetica, sans-serif;
 }
 .item-price-2 {
     margin-top: 145px;
     font-weight: bold !important;
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
 }
 .item-price-1 {
     font-weight: bold !important;
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
 }
 .price {
     font-weight: bold !important;
 }
-.labels {
+.labels-left {
     padding-bottom: 10px;
-    padding-left: 20px;
+    padding-left: 40px;
+}
+.labels-right {
+    padding-bottom: 10px;
 }
 /* FOOTER */
 
